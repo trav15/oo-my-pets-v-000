@@ -35,4 +35,5 @@ class Owner
   
   def buy_cat(name)
     pets[:cats] << Cats.new(name)
+  end
 end
