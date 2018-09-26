@@ -62,5 +62,11 @@ class Owner
     end
   end
   
+  def list_pets
+    dog_count, cat_count, fish_count = 0 
+    cat_count = 0 
+    fish_count = 0 
+    pets.each 
+  end
   
 end
