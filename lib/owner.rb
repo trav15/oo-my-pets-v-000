@@ -23,4 +23,8 @@ class Owner
     @species = species
   end
   
+  def say_species
+    puts @species
+  end
+  
 end
