@@ -63,10 +63,7 @@ class Owner
   end
   
   def list_pets
-    dog_count, cat_count, fish_count = 0 
-    cat_count = 0 
-    fish_count = 0 
-    pets.each 
+    "I have #{pets[:fishes].length} fish, #{pets[:dogs].length} dog(s), and #{pets[:cats]} cat(s)"
   end
   
 end
